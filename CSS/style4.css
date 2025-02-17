@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.item1 img{
+    width: 5rem;
+    height: 5rem;   
+}
+.item1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.item1 h2{
+    font-family: sour gummy;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+}
+.item3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item3 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.item3 a:link{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 30px;
+}
+.item3 a{
+    color: white;
+}
+.item2 {
+    height: 80px;
+    width: 500px;
+}
+.item2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#0000A3,#40B0DF,#FFD53D);
+}
+.box1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+.box1 p{
+    font-weight: 800;
+    font-family: cursive;
+}
+.container h3{
+    margin-left: 450px;
+    font-size: 40px;
+    font-family: sour gummy;
+    margin-bottom: 10px;
+}
+
+
+
+.item{
+    height: 260px;
+    width: 200px;
+    display: inline-block;
+    display: flex inline;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+}
+.item4{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.item5{
+    background-color: rgba(0, 0, 0, 0.626);
+}
+.item img{
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.item h4{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item5 h4{
+    color: white;
+}
+.box2 a{
+    color: black;
+}
+.box2{
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(#05E0E9,#FF2768,#CFEED1,#4E1A3D);
+}
+.one{
+    left: 10px;
+    top: 40px;
+}
+.two{
+    left:150px;
+    top: 90px;
+}
+.three{
+    left: 300px;
+    top: 140px;
+}
+.four{
+    left: 450px;
+    top: 190px;
+}
+.five{
+    right:10px;
+    top:40px
+}
+.six{
+    right: 150px;
+    top: 90px;
+}
+.seven{
+    right: 300px;
+    top: 140px;
+}
+.eight{
+    right: 450px;
+    top: 190px;
+}
+
+
+.container h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+.container p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.626);
+    margin: 4px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.box img{
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.box h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+.box h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px;
+    color: rgba(240, 255, 255, 0.662);
+}
+.box button{
+    background-color: #E4B7A0;
+    border-radius: 20px;
+    padding: 6px;
+    font-family: cursive;
+}
+.box3{
+    background-image: linear-gradient(#F9CCD3,#391306);
+}
+
+footer{
+    background-color: #67595E;
+}
+.first{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.item10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h3{
+    color: burlywood;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+footer p{
+    color: white;
+    font-family: arial;
+    margin: 8px;
+}
+.item11 a{
+    text-decoration: none;
+    color: white;
+}
+.item13 button{
+    background-color: darkgoldenrod;
+    font-weight: 700;
+}
+.item14{
+    padding: 10px;
+}

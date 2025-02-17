@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.item1 img{
+    width: 5rem;
+    height: 5rem;   
+}
+.item1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.item1 h2{
+    font-family: sour gummy;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+}
+.item3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item3 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.item3 a:link{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 20px;
+}
+.item3 a{
+    color: white;
+}
+.item2 {
+    height: 80px;
+    width: 500px;
+}
+.item2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container{
+    width: 100vw;
+    height: 510px;
+}
+.container video{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+}
+.container h1{
+    position: absolute;
+    font-size: 85px;
+    font-family: sour gummy;
+    left: 130px;
+    top:150px;
+    color: rgb(250, 210, 158);
+}
+.container h2{
+    position: absolute;
+    font-size: 85px;
+    font-family: sour gummy;
+    left: 360px;
+    top: 240px;
+    color: rgb(241, 180, 101);
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.box1 img{
+    width: 80px;
+    height: 80px;
+}
+.box1 h1{
+    margin-top: 20px;
+    font-family: 'Gill Sans';
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+.box1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+    width: 100vw;
+    height: 570px;
+    background-image: linear-gradient(#F9F1F0,#FADCD9,#F8AFA6,#F79489);
+    position: relative;
+}
+.item4{
+    height: 100%;
+    width: 400px;
+    display: inline-flex;
+}
+.item4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.item5{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.589);
+    display: inline-block;
+    display: flex inline;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.item5 img{
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.item5 h4{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item5 h5{
+    margin-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(0, 0, 0, 0.484);
+}
+.box2 a{
+    color:black;
+}
+.item6{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.626);
+    display: inline-block;
+    display: flex inline;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 90px;
+    right: 210px;
+}
+.item6 img{
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.item6 h4{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.item6 h5{
+    margin-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(251, 249, 249, 0.484);
+}
+.item7{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.589);
+    display: inline-block;
+    display: flex inline;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 160px;
+    right: 385px;
+}
+.item7 img{
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.item7 h4{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item7 h5{
+    margin-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(0, 0, 0, 0.484);
+}
+.item8{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.626);
+    display: inline-block;
+    display: flex inline;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 245px;
+    right: 555px;
+}
+.item8 img{
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.item8 h4{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.item8 h5{
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(251, 249, 249, 0.484);
+}
+.box2 h1{
+    position: absolute;
+    top: 4px;
+    left: 410px;
+    font-family: sour gummy;
+    font-size: 80px;
+    font-weight: 700;
+    background-image: linear-gradient(#67595E,#A49393,#EED6D3);
+    background-clip: text;
+    color: rgba(0, 0, 0, 0);
+}
+.item9{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.item9 a{
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(67, 64, 64);
+    background-color: rgba(234, 232, 232, 0.692);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: 700;
+}
+footer{
+    background-color: #67595E;
+}
+.first{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.item10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h3{
+    color: burlywood;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+footer p{
+    color: white;
+    font-family: arial;
+    margin: 8px;
+}
+.item11 a{
+    text-decoration: none;
+    color: white;
+}
+.item13 button{
+    background-color: darkgoldenrod;
+    font-weight: 700;
+}
+.item14{
+    padding: 10px;
+}
+
+
+#our-belief {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #our-belief h2 {
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #our-belief p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .map{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
